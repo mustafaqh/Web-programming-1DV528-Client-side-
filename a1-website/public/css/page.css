@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  *{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+  }
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/cat-seamless-pattern-kitten-breed-calico-scarf-isolated-wallpaper-background-white-vector.jpg");
+    
+    
+  }
+
+main .pageTitle {
+    text-align: center;
+    font-size: x-large;
+    
+}  
+
+main .right{
+    float: left;
+    margin: 5px;
+}
+
+main .intro {
+    font-size:xx-large;
+}
+
+main .OutSideTitle {
+    text-align: center;
+    font-size: x-large;
+}
+
+main .outSideText {
+    font-size:xx-large;
+}
+
+main .outSide {
+    float: right;
+    margin: 5px;
+}
+
+main .ourStoryTitle {
+    text-align: center;
+    font-size: xx-large;
+}
+main .ourStoryPic {
+    float:left;
+    margin: 5px;
+}
+
+main .ourStoryText{
+    font-size: xx-large;
+    
+}

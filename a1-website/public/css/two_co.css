@@ -1,0 +1,43 @@
+main .aside1 {
+    width: 30%;
+    float: left;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    margin-left: 10px;
+}
+
+main .aside1 h2 {
+    text-align: center;
+}
+main .aside1 ul { 
+    list-style:circle;
+}
+
+main .aside1 a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+ }
+
+main .aside1 ul :hover {
+    color: brown;
+    text-decoration:underline;
+}
+
+main .sec1 {
+    width: 60%;
+    float: right;
+    font-size: xx-large;
+}
+
+main .sec1 h2 {
+    text-align: center;
+}
+
+main .sec1 img {
+    float: left;
+    margin-right: 10px;
+}
+

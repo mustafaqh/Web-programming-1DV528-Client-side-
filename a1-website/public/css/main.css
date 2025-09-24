@@ -1,0 +1,9 @@
+main {
+    margin: 0 auto; /* Make the div center */
+    padding: 1em; /* em is a size related to the current base font */
+    min-height: 100vh;
+    padding-bottom: 2em;
+    font-size: xx-large;
+    overflow: auto;
+  }
+  

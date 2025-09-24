@@ -1,0 +1,58 @@
+
+ .sitefooter {
+    background-color: beige;
+    color: black;
+    padding: 0 1em;
+    margin-top: 24px;
+    font-size: x-large;
+    
+  }
+
+  .sitefooter .box {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sitefooter ul {
+    padding-left: 1em;
+  }
+  
+  /*
+  * Style the links.
+  */
+  .sitefooter a {
+    color:black;
+  }
+  
+  .sitefooter a:hover {
+    color:chocolate;
+    text-decoration: none;
+  }
+  
+  .box h4 {
+    border-bottom: 2px solid black;
+    
+  }
+  
+  .final {
+    text-align: center;
+  }
+  
+  /*
+  * Style the rows and columns.
+  */
+  .sitefooter .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  
+  .sitefooter .row > .col3 {
+    width: calc(100% / 3);
+  }
+  
+  .sitefooter .row > .col1 {
+    width: 100%;
+  }
+  

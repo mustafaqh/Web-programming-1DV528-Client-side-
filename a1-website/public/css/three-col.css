@@ -1,0 +1,67 @@
+main .aside2 {
+    width: 20%;
+    float: left;
+    padding: 10px;
+   margin-left: 5px;
+}
+
+
+main .aside2 h2 {
+    text-align: center;
+}
+main .aside2 ul { 
+    list-style:circle;
+}
+
+main .aside2 a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+ }
+
+main .aside2 ul :hover {
+    color: brown;
+    text-decoration:underline;
+}
+
+main .sec2 {
+    width: 49%;
+    float: left ;
+    padding: 10px;
+    margin: 5px;
+}
+
+main .sec2 h2 {
+text-align: center;
+}
+
+main .sec2 img {
+    float: left;
+    margin-right: 10px;
+}
+
+main .art1 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+
+} 
+
+main.art1 h2 {
+    text-align: center;
+}
+
+main .art1 ul { 
+    list-style:circle;
+    margin-left: 30px;
+}
+
+main .art1 a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    
+ }
+
