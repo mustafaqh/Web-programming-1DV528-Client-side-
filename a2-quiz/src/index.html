@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="name-box" class="hidden">
+            <h2 id="ask-name">enter your name</h2>
+            <form action="submit" id="name-form">
+                <input type="text" id="name-input">
+            </form>
+            <button id="submit-name">start the game</button>
+        </div>
+
+        <div id="quizz-box" class="hidden">
+            <h2 id="question-text">Answer the question</h2> <br>
+            <h2 id="counter">10</h2>
+            
+            <form action="submit" id="quizz-form">
+                <input type="number/text" id="answer">
+            </form>
+            <button id="submit-answer">submit the answer</button>
+            <div id="radio-container" class="hidden"></div>
+        </div>
+
+        <div id="result" class="hidden">
+            <h1 id="result-status"></h1>
+            <div id="table" class="hidden">
+                <h2 id="scoreTopTitle">Top 5 scores</h2>
+                <table id="score-table">
+                    <thead>
+                        <th>Name</th>
+                        <th>score</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <button id="show-score" class="hidden"> top 5 scores</button>
+            <button id="restart" class="hidden"> Restart</button>
+
+            
+        </div>
+    </main>
+    <script type="module" src="./js/quiz.js"> </script>
+</body>
+</html>

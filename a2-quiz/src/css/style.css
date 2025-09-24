@@ -1,0 +1,145 @@
+#text-answer {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/2722505_pixelheadache_animated-wallpaper.gif'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+
+  main {
+    width: 80%; /* Adjust to make the main element take 80% of the parent width */
+    max-width: 800px; /* Maximum width, increase this value to allow it to be wider */
+    min-width: 300px; /* Minimum width, so it doesn't get too narrow on smaller screens */
+    margin: 2em auto; /* This maintains the center alignment and adds some vertical space */
+    padding: 2em; /* Space inside the main element */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* A subtle shadow for depth */
+    box-sizing: border-box;
+    text-align: center; /* Center the text inside the main */
+    /* Other styles as needed */
+  }
+
+  #quiz-box {
+    position: relative;
+    /* Other styles for quiz-box... */
+  }
+  
+  #timer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px; /* Add a little space from the right edge */
+    margin-top: 10px; /* Add a little space from the top edge */
+    /* Other styles for timer... */
+  }
+
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#high-scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* This will center the flex items vertically */
+  align-items: center; /* This will center the flex items horizontally */
+  text-align: center; /* Center-align the text for all content */
+}
+
+#score-table { /* Corrected the ID to match the HTML */
+  width: 100%; /* Use 100% of the parent's width to center the table */
+  margin: auto; /* This will help center the table horizontally */
+  /* other styles if necessary */
+}
+
+#score-table th, #score-table td {
+  padding: 10px; /* Reduced padding to decrease space between columns */
+  /* If you need to adjust the width of the columns, you can do so here, for example: */
+  width: 50px;
+  font-size: 22px;
+}
+
+#submit-name,#show-score, #restart {
+   
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle; /* This ensures that the buttons align correctly if they are inline */
+}
+
+#submit-answer {
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle; 
+}
+
+input[type='radio'] {
+  /* This will enlarge the radio buttons */
+  transform: scale(2);
+  margin: 10px; /* Provide enough space around the enlarged radio buttons */
+}
+label {
+  /* Enlarge the label text that corresponds to radio buttons */
+  font-size: 1.2em; /* Adjust the size as needed */
+}
+
+#ask-name, #question-text, #result-status, #scoreTopTitle {
+  font-size: 2.5em;
+ 
+}
+
+
+
+
+#answer,#name-input {
+  height: 50px;
+  width: 400px;
+  font-size: 1.5em;
+}
+
+/* If the buttons are inside a flex container */
+.flex-container {
+  display: flex;
+  align-items: center; /* This will vertically center the items */
+  /* Other flex properties as needed */
+}
+
+
