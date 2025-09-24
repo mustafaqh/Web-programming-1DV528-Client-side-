@@ -1,4 +1,4 @@
-# A2 Quiz
+# A2 – Quiz App (1DV528)
 
 ![image of the website](src/img/Screenshot.png)
 
@@ -35,7 +35,7 @@ After navigating to the web server, you need to enter your name or nickname and 
 4. Utilize "npm run eslint" for analyzing and reporting on JavaScript file inconsistencies. Use "npm run eslint:fix" for automatic problem resolution attempts.
 5. Execute "npm run lint" to concurrently run all available linters for comprehensive code checks.
 6. Generate code documentation by executing "npm run jsdoc", which organizes and provides details about your code's structure and components.
-# A2 – Quiz App (1DV528)
+
 
 
 
