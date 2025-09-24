@@ -128,7 +128,7 @@ No build step; no external dependencies required. Pure client-side.
 3. If you want to publish only `a2-quiz/`, move it to its own repo or use a Pages workflow pointing to that subfolder.
 4. After deploy, the app is available at your Pages URL.
 
-## 🧭 Scripts (optional)
+##  Scripts (optional)
 Add these to a root-level `package.json` if you prefer Node tooling:
 ```json
 {
@@ -139,11 +139,11 @@ Add these to a root-level `package.json` if you prefer Node tooling:
 }
 ```
 
-## 🗺️ Roadmap / TODO
+##  Roadmap / TODO
 - Add question categories & difficulty filters
 - Add review mode (see all questions & explanations)
 - Add progress save/export (download JSON)
 - Basic unit tests for scoring & storage helpers
 
-## 📄 License
+##  License
 MIT — free to use for learning and showcases.
