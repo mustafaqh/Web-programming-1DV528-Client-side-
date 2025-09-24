@@ -137,8 +137,8 @@ npm run build      # minify assets
 
 ## Credits / License
 
-- Icons & images: [source/attribution if applicable].  
-- License: MIT .
+- Icons & images: [].  
+- License:-.
 
 ---
 
